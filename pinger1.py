@@ -8,7 +8,7 @@ import platform
 import os
 
 # Assign IP to ping to a variable
-ip = "127.0.0.1"
+ip = "8.8.8.8"
 # Build our ping command
 ping_cmd = f"ping -c 1 -i 2 {ip} > /dev/null 2>&1"
 # Execute command and capture exit code
